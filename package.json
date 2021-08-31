@@ -1,0 +1,33 @@
+{
+  "name": "test-gitex-flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "gitex-flow init",
+    "feature:start": "gitex-flow feature start",
+    "feature:finish": "gitex-flow feature finish",
+    "release:start": "gitex-flow release start",
+    "release:finish": "gitex-flow release finish",
+    "hotfix:start": "gitex-flow hotfix start",
+    "hotfix:finish": "gitex-flow hotfix finish",
+    "bugfix:start": "gitex-flow bugfix start",
+    "bugfix:finish": "gitex-flow bugfix finish",
+    "support:start": "gitex-flow support start",
+    "support:finish": "gitex-flow support finish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zilvinasj/test-gitex-flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zilvinasj/test-gitex-flow/issues"
+  },
+  "homepage": "https://github.com/zilvinasj/test-gitex-flow#readme",
+  "devDependencies": {
+    "gitex-flow": "^2.3.3"
+  }
+}
